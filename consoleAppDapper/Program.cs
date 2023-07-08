@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using System.Data;
+
+
+DataTable dt = new DataTable();
+dt.Columns.Add("ID");
+
+
+
